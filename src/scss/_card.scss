@@ -1,0 +1,17 @@
+.card {
+  display: inline-flex;
+  padding: 8px;
+  flex-direction: column;
+  gap: 16px;
+  font-family: Montserrat, sans-serif;
+  border-radius: 32px;
+  background: var(--Primary-0, #fff);
+  box-shadow: 0 8px 10px 2px rgba(0, 0, 0, 0.15);
+}
+
+img {
+  width: 284px;
+  height: 284px;
+  aspect-ratio: 1/1;
+  border-radius: 28px;
+}

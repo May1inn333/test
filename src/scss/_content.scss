@@ -1,0 +1,38 @@
+.content {
+  display: flex;
+  padding: 4px 8px 12px 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+h2 {
+  align-self: stretch;
+  color: var(--Primary-900, #000);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h3 {
+  color: var(--Primary-600, #6c6f72);
+  font-size: 14px;
+  font-style: normal;
+  font-size: 0, 875rem;
+  line-height: normal;
+  font-weight: 400;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.informations {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
