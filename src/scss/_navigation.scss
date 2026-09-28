@@ -1,0 +1,36 @@
+.nav {
+  display: inline-flex;
+  padding: 4px;
+  align-items: center;
+  border-radius: 48px;
+  font-family: Montserrat, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-flex;
+  color: var(--Primary-0, #fff);
+  font-weight: 400;
+  padding: 0.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625px;
+  background: var(--Primary-900-50, rgba(0, 0, 0, 0.5));
+  font-size: 1.25rem;
+  border-radius: 3rem;
+}
+
+.active {
+  color: var(--Primary-900, #000);
+  background: var(--Primary-0, #fff);
+  border-radius: 3rem;
+}
+
+.item:hover {
+  border-radius: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+}
