@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 20;
 }
 
 a {
@@ -11,4 +10,8 @@ a {
 img,
 video {
   display: block;
+}
+
+svg:not(:root) {
+  overflow: visible;
 }

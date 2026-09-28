@@ -1,113 +1,22 @@
-.default {
-  display: inline-flex;
-  padding: 16px 20px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  background: var(--Primary-900, #000);
-  color: var(--Primary-100, #f5f5f5);
-  border-style: none;
-  border-radius: 20px;
-  font-family: Montserrat, sans-serif;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 40;
-}
-
-.default:hover {
-  background-color: var(--Primary-800, #343434);
-}
-
-.Small {
-  display: inline-flex;
-  width: fit-content;
+.small {
+  width: 232px;
+  display: flex;
+  flex-direction: column;
   padding: 8px 12px;
+  flex: 1 0 0;
   justify-content: center;
-  align-items: center;
-  border-radius: 20px;
   background: var(--Primary-900, #000);
   color: var(--Primary-100, #f5f5f5);
   border-style: none;
   border-radius: 12px;
-  font-family: Montserrat, sans-serif;
-  font-size: 0.875rem;
-  font-style: normal;
+  font-size: 0, 875rem;
   font-weight: 40;
 }
 
-.Small:hover {
+.small:hover {
   background-color: var(--Primary-800, #343434);
 }
 
-.default-light {
-  display: inline-flex;
-  padding: 16px 20px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  color: var(--Primary-900, #000);
-  background: var(--Primary-100, #fff);
-  border-style: none;
-  border-radius: 20px;
-  font-family: Montserrat, sans-serif;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 40;
-}
-
-.default-light:hover {
-  background: var(--Primary-500, #b4bbc0);
-}
-
-.Small-light {
-  display: inline-flex;
-  padding: 8px 12px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  color: var(--Primary-900, #000);
-  background: var(--Primary-100, #fff);
-  border-style: none;
-  border-radius: 12px;
-  font-family: Montserrat, sans-serif;
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 40;
-}
-
-.Small-light:hover {
-  background: var(--Primary-500, #b4bbc0);
-}
-
-.light {
-  background-color: #000;
-}
-
-.black {
-  width: fit-content;
-  align-items: center;
-}
-
-.light {
-  width: fit-content;
-
-  align-items: center;
-}
-
-.default:disabled {
+.small:disabled {
   background: var(--Primary-100, #bbb);
-}
-
-.Small:disabled {
-  background: var(--Primary-100, #bbb);
-}
-
-.default-light:disabled {
-  color: var(--Primary-200, #eceeef);
-  background: var(--Primary-100, #fff);
-}
-
-.Small-light:disabled {
-  color: var(--Primary-200, #eceeef);
-  background: var(--Primary-100, #fff);
 }

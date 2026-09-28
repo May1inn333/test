@@ -1,0 +1,67 @@
+.content {
+  display: flex;
+  width: 284px;
+  padding: 4px 8px 12px 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+h2 {
+  align-self: stretch;
+  color: var(--Primary-900, #000);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h3 {
+  color: var(--Primary-600, #6c6f72);
+  font-size: 14px;
+  font-style: normal;
+  font-size: 0, 875rem;
+  line-height: normal;
+  font-weight: 400;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.informations {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.favorite {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+  border-radius: 64px;
+  border: 1px solid var(--Primary-500, #b4bbc0);
+}
+
+.airplane {
+  display: flex;
+  width: 54px;
+  align-items: center;
+  gap: 8px;
+}
